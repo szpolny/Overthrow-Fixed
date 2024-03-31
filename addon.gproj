@@ -1,7 +1,7 @@
 GameProject {
- ID "Overthrow"
- GUID "59B657D731E2A11D"
- TITLE "Overthrow"
+ ID "OverthrowFixed"
+ GUID "60FF708074F73E38"
+ TITLE "Overthrow Temporary Fix"
  Dependencies {
   "58D0FB3206B6F859" "5D6EBC81EB1842EF" "5ED8D02E6CBD7D4E"
  }
@@ -34,13 +34,16 @@ GameProject {
     }
    }
   }
-  GameProjectConfig HEADLESS {
-  }
   GameProjectConfig XBOX_ONE {
   }
   GameProjectConfig XBOX_SERIES {
   }
   GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+   PlatformHardware PS5
+  }
+  GameProjectConfig HEADLESS {
   }
  }
 }
